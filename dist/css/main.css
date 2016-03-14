@@ -95,21 +95,108 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.art-search {
+    display: table;
+    margin: 0 auto;
+    opacity: 0.8;
+    padding: 1%;
+    border: none;
+    /* css 3 */
+     border-radius:2px;
+     /* mozilla */
+     -moz-border-radius:2px;
+     /* webkit */
+     -webkit-border-radius:2px;
+}
 
+.logo {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+    opacity: 0.8;    
+}
 
+.container {
+    position: fixed;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    color: LightGrey;
+}
 
+label {
+    display: block;
+    text-align: center;
+}
 
+input {
+    color: black;
+    margin: 2px;
+    border: none;
+    border-radius: 2px;
+}
 
+.input-center {
+    text-align: center;
+}
 
+.input-submit {
+    margin-top: 4px;
+}
 
+.subtitle {
+    padding: 5px;
+    position: relative;
+    color: LightGrey;
+    text-align: center;
+}
 
+#footer {
+    clear: both;
+    position: relative;
+    margin-top: 1em;    
+    color: LightGrey;
+}
 
+#signup-link {
+    padding-left: 10px;
+    color: LightGrey;
+}
 
+.alignleft {
+    float: left;
+}
 
+.aligncenter {
+    margin: 0 auto;
+    display: block;
+}
 
+.alignright {
+    float: right;
+}
 
+.background {
+    background: no-repeat center fixed -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/art.gif");
+    background: no-repeat center fixed linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/art.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    background-size: cover;
+    width :100vw;
+    height: 75vh;
+    margin-top: 10px;
+    z-index: 10;
+}
 
-
+#landing-wrapper {
+  background-position: center top;
+  height: 350px;
+  color: white;
+}
 
 /* ==========================================================================
    Helper classes
