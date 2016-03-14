@@ -141,6 +141,10 @@ gulp.task('copy:normalize', () =>
         .pipe(gulp.dest(`${dirs.dist}/css`))
 );
 
+gulp.task('watch', () => 
+  gulp.watch('src/**/*', ['build'])
+);
+
 gulp.task('lint:js', () =>
     gulp.src([
         'gulpfile.js',

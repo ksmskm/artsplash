@@ -146,10 +146,13 @@ input {
 }
 
 #footer {
+    display: block;
+    margin: 0 auto;
     clear: both;
     position: relative;
     margin-top: 1em;    
     color: LightGrey;
+    text-align: center;
 }
 
 #signup-link {
@@ -159,11 +162,6 @@ input {
 
 .alignleft {
     float: left;
-}
-
-.aligncenter {
-    margin: 0 auto;
-    display: block;
 }
 
 .alignright {
